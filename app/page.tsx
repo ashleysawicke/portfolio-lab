@@ -62,7 +62,7 @@ const projects = [
 
 function Icon({name,size=19}: {name:"github"|"linkedin"|"email"|"resume"|"sun"|"moon"|"chevron"|"arrow"|"copy"|"clock"|"location"|"menu";size?:number}){
   const paths: Record<string,ReactNode> = {
-    github:<><path d="M9 20c-4.6 1.5-4.6-2.5-6.5-3M15 22v-4a3.7 3.7 0 0 0-1-2.9c3.5-.4 6.9-1.7 6.9-7.3A5.8 5.8 0 0 0 19.3 4a5.6 5.6 0 0 0-.1-4S18 0 15.2 1.6a13.8 13.8 0 0 0-6.4 0C6 .1 4.7 0 4.7 0a5.6 5.6 0 0 0-.1 4 5.8 5.8 0 0 0-1.6 3.8c0 5.6 3.4 6.9 6.9 7.3a3.7 3.7 0 0 0-1 2.9v4"/>,
+    github:<path d="M9 20c-4.6 1.5-4.6-2.5-6.5-3M15 22v-4a3.7 3.7 0 0 0-1-2.9c3.5-.4 6.9-1.7 6.9-7.3A5.8 5.8 0 0 0 19.3 4a5.6 5.6 0 0 0-.1-4S18 0 15.2 1.6a13.8 13.8 0 0 0-6.4 0C6 .1 4.7 0 4.7 0a5.6 5.6 0 0 0-.1 4 5.8 5.8 0 0 0-1.6 3.8c0 5.6 3.4 6.9 6.9 7.3a3.7 3.7 0 0 0-1 2.9v4"/>,
     linkedin:<><rect x="2" y="7" width="4" height="14" rx=".5"/><path d="M4 2.5v.5M10 21V7h4v2.5a4.5 4.5 0 0 1 8 3.5v8h-4v-7.2a2.2 2.2 0 0 0-4.4 0V21z"/></>,
     email:<><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></>,
     resume:<><path d="M6 2h8l5 5v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1Z"/><path d="M14 2v6h5M8 12h8M8 16h8"/></>,
